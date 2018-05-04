@@ -1,0 +1,92 @@
+body {
+  background-color: #131313;
+  color: #dedede;
+}
+
+hr {
+  border-top: 1px solid #555;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  color: #c6e6ef;
+}
+
+small,
+.small {
+  color: #dedede;
+}
+
+.navbar-default {
+  background-color: #282828;
+  border: 0;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: white;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #dedede;
+  background-color: #393939;
+}
+
+.panel {
+  background-color: #222222;
+  border: 0;
+  border-radius: 0;
+}
+
+.nav-pills > li > a {
+  border-radius: 0;
+}
+
+.dropdown-menu {
+  background-color: #292929;
+}
+
+.dropdown-menu > li > a {
+  color: #D1D1D1;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #D1D1D1;
+  background-color: #4F4F4F;
+}
+
+.NotificationSnippet-header {
+  border-bottom: 1px solid #333;
+}
+
+.NotificationSnippet.highlight {
+  background-color: #292929;
+}
+
+.apps ul {
+  background: #292929;
+}
+
+.apps .more {
+  background: #4F4F4F;
+  color: #D1D1D1;
+}
+
+.user-menu > .dropdown-menu > li.user-footer {
+  background-color: #4F4F4F;
+}
+
+.comment-box {
+  background-color: #333;
+}
+
+.comment-box-list {
+  background-color: #202020;
+}
+
+.media-post .media-heading a {
+  color: white;
+}

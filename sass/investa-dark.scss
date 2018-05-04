@@ -1,0 +1,112 @@
+$body-bg: #131313;
+$body-text: #dedede;
+
+$navbar-bg: #282828;
+$navbar-text: white;
+$navbar-open: #393939;
+
+$dropdown-bg: #292929;
+$dropdown-text: #D1D1D1;
+$dropdown-text-hover-bg: #4F4F4F;
+
+$panel-bg: #222222;
+
+$page-light1-black: #333;
+$page-light2-black: #555;
+
+$page-light-blue: #c6e6ef;
+
+$comment-box-bg: #202020;
+
+body {
+	background-color: $body-bg;
+	color: $body-text;
+}
+
+hr {
+	border-top: 1px solid $page-light2-black;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	color: $page-light-blue;
+}
+
+small,
+.small {
+  color: $body-text;
+}
+
+.navbar-default {
+	background-color: $navbar-bg;
+	border: 0;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus {
+	color: $navbar-text;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+	color: $body-text;
+	background-color: $navbar-open;
+}
+
+.panel {
+	background-color: $panel-bg;
+	border: 0;
+	border-radius: 0;
+}
+
+.nav-pills>li>a {
+	border-radius: 0;
+}
+
+.dropdown-menu {
+	background-color: $dropdown-bg;
+}
+
+.dropdown-menu>li>a {
+	color: $dropdown-text;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+	color: $dropdown-text;
+	background-color: $dropdown-text-hover-bg;
+}
+
+.NotificationSnippet-header {
+	border-bottom: 1px solid $page-light1-black;
+}
+
+.NotificationSnippet.highlight {
+	background-color: $dropdown-bg;
+}
+
+.apps ul {
+	background: #292929;
+}
+
+.apps .more {
+	background: $dropdown-text-hover-bg;
+	color: $dropdown-text;
+}
+
+.user-menu>.dropdown-menu>li.user-footer {
+	background-color: $dropdown-text-hover-bg;
+}
+
+.comment-box {
+	background-color: $page-light1-black;
+}
+
+.comment-box-list {
+	background-color: $comment-box-bg;
+}
+
+.media-post .media-heading a {
+	color: white;
+}
